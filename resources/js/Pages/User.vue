@@ -7,7 +7,7 @@ import ShowPostOverlay from "@/Components/ShowPostOverlay.vue";
 
 import Cog from "vue-material-design-icons/Cog.vue";
 import Grid from "vue-material-design-icons/Grid.vue";
-import PlayBoxoutline from "vue-material-design-icons/PlayBoxoutline.vue";
+import PlayBoxOutline from "vue-material-design-icons/PlayBoxOutline.vue";
 import BookmarkOutline from "vue-material-design-icons/BookmarkOutline.vue";
 import AccountBoxOutline from "vue-material-design-icons/AccountBoxOutline.vue";
 
@@ -183,7 +183,7 @@ const getUploadedImage = (e) => {
                 <div
                     class="p-3 w-1/4 flex justify-center border-t border-t-gray-900"
                 >
-                    <PlayBoxoutline
+                    <PlayBoxOutline
                         size="28"
                         fillColor="#8E8E8E"
                         class="cursor-pointer"
@@ -220,7 +220,7 @@ const getUploadedImage = (e) => {
                         </div>
                     </div>
                     <div class="p-[17px] w-1/4 flex justify-center items-center">
-                        <PlayBoxoutline size="15" fillColor="#8E8E8E" class="cursor-pointer" />
+                        <PlayBoxOutline size="15" fillColor="#8E8E8E" class="cursor-pointer" />
                         <div class="ml-2 -mb-[1px] text-gray-900">
                             REELS
                         </div>
